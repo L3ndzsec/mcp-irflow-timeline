@@ -1,0 +1,17 @@
+{
+  "name": "irflow-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for IRFlow Timeline — exposes parsed forensic timeline data to LLMs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "better-sqlite3": "12.11.1"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}
